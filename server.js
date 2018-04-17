@@ -13,13 +13,12 @@ bot.on("ready",function(){
 bot.on("message", function(message) {
     if (message.author.equals(bot.user))return;
 
-    if (!message.content.startsWith(bott.PREFIX)) return;
+    if (!message.content.startsWith(PREFIX)) return;
 
-    var args = message.content.substring(bott.PREFIX.length).split(" ");
+    var args = message.content.substring(PREFIX.length).split(" ");
 
     switch (args[0].toLowerCase()) {
         case "ping":
-            console.log(message.author.username +"#"+ message.author.discriminator + " UID "+ message.author.id +" called "+ args[0] +" Server: " + message.guild.name.toString() + ". Channel: #" + message.channel.name.toString() + "." )
             message.channel.send("Pong!");
             break;
         default:
