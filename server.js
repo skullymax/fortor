@@ -19,10 +19,10 @@ bot.on("message", function(message) {
 
     switch (args[0].toLowerCase()) {
         case "ping":
-            message.channel.send("Pong!");
+            message.channel.sendMessage("Pong!");
             break;
         default:
-            message.channel.send("Invalid command")
+            message.channel.sendMessage("Invalid command")
     }
 });
 
