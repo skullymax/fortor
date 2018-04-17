@@ -5,12 +5,9 @@ var bott = {
     PREFIX: "/",
     TOKEN: "NDM0MTI0NzQ2ODIxNDY4MTYw.Dbd4nA.DWLp1Aej1Y1eewVtKeNHNkvjrWM",
     AUTHORNAME: "skullymax",
-    AUTHORDISC: "1129",
     AUTHORUID: "336612686185889792",
-    GOOGLapi: "Hidden",
     BOTID: "434124746821468160",
     BOTPERMS: "363528",
-    BOTSERV: "4yEnu",
     THEME: "https://youtu.be/AVS55EzWTMs"
 }
 var bot = new Discord.Client();
