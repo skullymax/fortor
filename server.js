@@ -5,14 +5,9 @@ cost PREFIX = "/"
 
 var bot = new Discord.Client();
 
-var ball = [
-    "Yes",
-    "No",
-    "Maybe"
-
 bot.on("ready",function(){
     console.log("READY");
-    bot.user.setGame("Do " + data.PREFIX + "help");
+    bot.user.setGame("/help | by skullymax");
 });
 
 bot.on("message", function(message) {
@@ -31,4 +26,4 @@ bot.on("message", function(message) {
             message.channel.send("Invalid command")
 });
 
-bot.login(bott.TOKEN)
+bot.login(TOKEN);
