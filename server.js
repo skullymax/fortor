@@ -1,6 +1,6 @@
 const Discord = require ("discord.js");
 
-const TOKEN = "NDM0MTI0NzQ2ODIxNDY4MTYw.DbedHg.JusQksZk_OQLnTZgRtoKp7FpekM"
+const TOKEN = "NDM0MTI0NzQ2ODIxNDY4MTYw.DbeIcQ.y0gtPuftDkVitDvBA2da4qig9fc"
 cost PREFIX = "/"
 
 var bot = new Discord.Client();
@@ -24,6 +24,7 @@ bot.on("message", function(message) {
             break;
         default:
             message.channel.send("Invalid command")
+    }
 });
 
 bot.login(TOKEN);
